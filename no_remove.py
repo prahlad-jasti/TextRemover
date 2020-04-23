@@ -1,6 +1,6 @@
 import pytesseract
 from pytesseract import Output
-from PIL import Image, ImageDraw, ImageEnhance, ImageFilter, ImageFont
+from PIL import Image, ImageDraw, ImageFont
 import sys
 pytesseract.pytesseract.tesseract_cmd = r'C:\Users\chotu\AppData\Local\Tesseract-OCR\tesseract.exe'
 im = Image.open("RemoveTest.jpg") # the second one
